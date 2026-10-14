@@ -8,8 +8,10 @@ To make this program, I used various functionalities of python, like conditional
 ## Calculator
 This is a very simple calculator allowing for the most basic arithmetic operations namely addition, subtraction, multiplication and division.
 
-Process: It allows the user to choose the operation they'd like to perform (+, -, /, *) and takes the number to evaluate. Then it evaluates it and print out the result. 
-It has error handling for operations not within it's capabilities and for invalid inputs such as non numbers.
+Process: 
+- It allows the user to choose the operation they'd like to perform (+, -, /, *) and takes the number to evaluate. 
+- Then it evaluates it and print out the result. 
+- It has error handling for operations not within it's capabilities and for invalid inputs such as non numbers.
 
 Used: I used a while loop and the try and except blocks for the input validation. I used a function that performs the arithmetic operation and returns the answer. I used a match-case to match the operation to the different cases to get the desired evaluation. I also used variables to store input, and if and else statement for conditions.
 
@@ -27,7 +29,10 @@ Cannot divide by zero.
 ## Converter 
 This is a simple unit converter, that convert from one time unit to another. It only allows for conversion from and to second, minute, and hours.
 
-Process: It allows the user to input the starting and converting unit, limiting their choices to only that within its capabilities. Then it gets the starting value from the user. Then using the conversion table it has, it looks up the conversion factor and multiplies it with the value, displaying the result.
+Process: 
+- It allows the user to input the starting and converting unit, limiting their choices to only that within its capabilities. 
+- Then it gets the starting value from the user. 
+- Then using the conversion table it has, it looks up the conversion factor and multiplies it with the value, displaying the result.
 
 Used: I used a dictionary to store the conversion factor. Used a while loop with the try and except block for validating input. Used the if, else block for conditions. I also used a function that performs the conversion, dictionary methods and variables for storing input.
 
@@ -37,6 +42,19 @@ Unit to convert to: s
 Value to convert: 2
 Old value: 2.0min
 New value: 120.0s
+
+## Decision Maker
+A simple program that takes in an age value and prints child, preteen, teen or adult based on the age range the age value falls into.
+
+Process:
+- It takes in and validate an age value and stores it in a variable called age.
+- Then it calls the dec() function passing the age as an argument.
+- The dec() function uses if and Elif statement to decide the current message to print out based on age range.
+- Prints out the correct message.
+
+Used: If-elif statement for decision making. While loop and try-except for error handling. Variable to store input and a function that makes the decision.
+
+Example Use:
 
 ### Video Links(YouTube)
 Test Run: https://youtube.com/shorts/DqDvWhrTYnM?si=oCmOFHsLZhB7wxVP
