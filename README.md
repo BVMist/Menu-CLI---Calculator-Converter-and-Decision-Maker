@@ -68,3 +68,5 @@ This project helped me practice more on using if-elif-else statements, while loo
 
 ### Video Links(YouTube)
 Test Run: https://youtube.com/shorts/DqDvWhrTYnM?si=oCmOFHsLZhB7wxVP
+Live Demo:
+https://youtu.be/CZCwNqzbp08?si=o0s8ntMkwczc9G51
