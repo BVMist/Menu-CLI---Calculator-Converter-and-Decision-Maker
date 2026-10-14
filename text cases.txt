@@ -1,1 +1,72 @@
-Batch 1:
+Batch A:
+Test Case 1:
+    Test: Entering an action within the desired action list.
+    Expected result: Performs corresponding functuon based on the action type.
+    Result: Worked as intended.
+    
+Test Case 2:
+    Test: Entering an action outside the desired action list but still an integer.
+    Expected result: Get a helpful error message saying action must be within action list. Then taken back to the start of the loop.
+    Result: Worked as expected.
+    
+Test Case 3:
+    Test: Entering an action that is not an integer value. (Error handling)
+    Expected result: Get a helpful error message saying action must be number. Then allowed to input the action again.
+    Result: Worked as expected.      
+
+        
+Batch B:
+Test Case 4:
+    Test: Entering the action corresponding to the calculator.
+    Expected result: The calculator starts up and displays the label 'Calculator'.
+    Result: Worked as expected. 
+    
+Test Case 5:
+    Test: Entering the action corresponding to the converter.
+    Expected result: The converter starts up and displays the label 'Converter'.
+    Result: Worked as expected.   
+    
+Test Case 6:
+    Test: Entering the action corresponding to the decision maker.
+    Expected result: The decision maker starts up and displays the label 'Decision maker'.
+    Result: Worked as expected.
+    
+Test Case 7:
+    Test: Entering the action corresponding to exit.
+    Expected result: Displays 'Exiting...' then exits the program.
+    Result: Worked as expected.        
+
+        
+Batch C:     
+Test Case 8:
+    Test: Entering a none number for inputs requiring numbers. (Error habdling) 
+    Expected result: Displays 'Must be a number.'. Allows for reinput.
+    Result: Worked as expected in all three capabilities the menu provides access to(Converter, Calculator, Decision maker.)
+    
+Test Case 9:
+    Test: Entering an input not contained in the validating list.(Error handling)
+    Expected result: Display a helpful error message stating it only accepts input within the range of the list.
+    Result: Worked as expectec where used, namely calculator and converter.
+    
+
+Batch D(Testing function):
+Test Case 10:
+    Test: Using the calculator function, entering operations and numbers.
+    Expected result: Give the value corresponding to result gotten from perform the desired operation on the 2 inputted numbers.
+    Result: Worked as expected.
+    
+Test Case 11:
+    Test: Using the Converter, converting from one unit to the other.
+    Expected result: Give the correct converted value by multiplying by the conversion factor in the conversion list.
+    Result: worked as expected.
+    
+Test Case 12:
+    Test: Using the Decision maker.
+    Expected result: Display child, preteen, teen or adult depending on the age rabge the inputed age belongs to.
+    Result: Worked as expected.
+    
+Test Case 13:
+    Test: Exiting to the main menu.
+    Expected result: Take user back to the main menu.
+    Result: Worked as expected in all three functions.
+                                                                                                                                                                                                                              
