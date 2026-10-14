@@ -1,1 +1,46 @@
-h
+Main Loop:
+    Display list of available action.
+    Ask the user to select an action and then validate and store it.
+    
+    If the action is 1:
+        Then start the calculator.
+        Display the list of operations.
+        Ask the user for the operation they want to perform and then validate and store it.
+        Ask the user for the first number and validate to ensure it is a number then store it.
+        Do same for the second number.
+        Match the operation with the different cases:
+            If addition:
+                Then display the value of the addition of the two.
+            Else if subtraction:
+                Then display the value of the subtraction of the two.
+            Else if division:
+                Then check whether the second number is a 0 number.
+                If 0:
+                    then display an helpful error message.
+                Else:
+                    Then display the value of the division of the two numbers.                                                  
+    Else if action is 2:
+        Then start the converter.
+        Display the units we can convert from and two.
+        Create a conversion dictionary containing the conversion factor of each unit in comparison to the rest.
+        Ask the user for the starting unit and validate to ensure it is a unit it can convert from, then store it.      
+        Ask the user for the unit to convert to and validate to ensure it is a unit it can convert from, then store it.      
+        Ask the user for the value to convert, validate, then store it.
+        Convert the value to the required unit by multiplying by the conversion factor in the convertion table.
+        Display result.       
+        
+    Else if action is 3:
+        Then start the decision maker.
+        Ask the user for their age and validate to ensure it is a number.
+        If age is less than 11 and greater than or equal to 0:
+            Then display Child.
+        Else if age is greater than or equal than 11 and less than 13:
+            Then display Preteen.    
+        Else if age is greater than or equal to 13 and less than 20:
+            Then dispay Teen.
+        Else if age greater than or equal to 20:
+            Then display Adult.
+            
+    Else if action is 4:
+        Display Exiting...
+        Exit the program                                                                               
