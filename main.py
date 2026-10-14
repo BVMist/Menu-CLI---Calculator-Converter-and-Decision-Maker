@@ -19,7 +19,7 @@ def calc(a, b, op):
             else:
                 return 'Ans: ' + str(a/b)
         case '*':
-            return 'Ans' + str(a*b)
+            return 'Ans: ' + str(a*b)
             
 
 #Converter function
