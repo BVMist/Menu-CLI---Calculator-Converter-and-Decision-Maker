@@ -55,6 +55,16 @@ Process:
 Used: If-elif statement for decision making. While loop and try-except for error handling. Variable to store input and a function that makes the decision.
 
 Example Use:
+Case 1: Age(or exit to exit): 2
+Child
+
+Case 2: Age(or exit to exit): 15
+Teen
+
+
+## Conclusion
+This project helped me practice more on using if-elif-else statements, while loops, try-except, functions, and building a CLI toolkit. I also learnt about match-case and how to use it.
+
 
 ### Video Links(YouTube)
 Test Run: https://youtube.com/shorts/DqDvWhrTYnM?si=oCmOFHsLZhB7wxVP
