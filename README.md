@@ -29,5 +29,14 @@ This is a simple unit converter, that convert from one time unit to another. It 
 
 Process: It allows the user to input the starting and converting unit, limiting their choices to only that within its capabilities. Then it gets the starting value from the user. Then using the conversion table it has, it looks up the conversion factor and multiplies it with the value, displaying the result.
 
+Used: I used a dictionary to store the conversion factor. Used a while loop with the try and except block for validating input. Used the if, else block for conditions. I also used a function that performs the conversion, dictionary methods and variables for storing input.
+
+Example Use:
+Starting unit: min
+Unit to convert to: s
+Value to convert: 2
+Old value: 2.0min
+New value: 120.0s
+
 ## Video Links(YouTube)
 Test Run: https://youtube.com/shorts/DqDvWhrTYnM?si=oCmOFHsLZhB7wxVP
